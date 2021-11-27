@@ -1,3 +1,7 @@
+##SVGR svg----> react component...
+
+##SVGO ------->  optimizer for svg strip needless tags
+
 # Firebase Integration
 
 ## You will need to create a new repo for this class  
