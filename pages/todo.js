@@ -5,17 +5,18 @@ import {Title} from "ui/title"
 
 function ToDoPage(props) {
    const user = useAuth()
+   
     if(!user){
-      <>
+      return  (<>
         <AppBar />
-        <Title> Please Go Away - Maybe take a bath...</Title>
-      </>
+        <Title> Please Go Away! - Maybe take a bath while your at it...</Title>
+      </>)
     }
 
     return(
       <>
       <AppBar />
-      <Title> Render the suers to LIST</Title>
+      <Title> Render the users to LIST</Title>
       </>
     )
   
